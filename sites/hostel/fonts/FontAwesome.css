@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "FontAwesome";
+    src: url("FontAwesome.eot"); /* IE9 */
+    src: url("FontAwesome.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("FontAwesome.woff") format("woff"), /* chrome, firefox */
+    url("FontAwesome.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("FontAwesome.svg#FontAwesome") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

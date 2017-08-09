@@ -1,0 +1,435 @@
+/*  ++++++++++++  Шрифты  ++++++++++++  */
+html, body {
+	overflow-x: hidden;
+}
+@import url(animate.css);
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('fonts/UbuntuBold.eot');
+    src: url('fonts/UbuntuBold.eot') format('embedded-opentype'),
+         url('fonts/UbuntuBold.woff2') format('woff2'),
+         url('fonts/UbuntuBold.woff') format('woff'),
+         url('fonts/UbuntuBold.ttf') format('truetype'),
+         url('fonts/UbuntuBold.svg#UbuntuBold') format('svg');
+}
+
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('fonts/UbuntuMedium.eot');
+    src: url('fonts/UbuntuMedium.eot') format('embedded-opentype'),
+         url('fonts/UbuntuMedium.woff2') format('woff2'),
+         url('fonts/UbuntuMedium.woff') format('woff'),
+         url('fonts/UbuntuMedium.ttf') format('truetype'),
+         url('fonts/UbuntuMedium.svg#UbuntuMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('fonts/UbuntuRegular.eot');
+    src: url('fonts/UbuntuRegular.eot') format('embedded-opentype'),
+         url('fonts/UbuntuRegular.woff2') format('woff2'),
+         url('fonts/UbuntuRegular.woff') format('woff'),
+         url('fonts/UbuntuRegular.ttf') format('truetype'),
+         url('fonts/UbuntuRegular.svg#UbuntuRegular') format('svg');
+}
+
+.textR {
+	font-family: 'UbuntuRegular';
+}
+.textB {
+	font-family: 'UbuntuBold';
+}
+.textM {
+	font-family: 'UbuntuMedium';
+}
+/*  ++++++++++++  Главный экран  ++++++++++++  */
+
+section#main {
+	padding-top: 20px;
+	height: 1100px;
+	background: url(../img/main-bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+.phone_number{
+	h3 {
+		color: #fff;
+		.textM;
+	}
+	p {
+		padding-top: 10px;
+		color: #fff;
+		.textR;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	a:focus {
+		text-decoration: none;
+	}
+}
+.logo {
+	
+	img {
+		width: 180px;
+		margin-left: 29px;
+	}
+}
+.social_icons {
+	img {
+		width: 40px;
+		margin: 2% 2% 0 0;
+	}
+}
+.revizorro {
+	img {
+		width: 200px;
+	}
+}
+.header {
+	h1 {
+		margin-top: 251px;
+		.textB;
+		color: #fff;
+		text-transform: uppercase;
+	}
+}
+.main-form {
+	.textR;
+	margin-top: 310px;
+	padding-bottom: 40px;
+	background-color: rgba(255, 255, 255, 0.47);
+	input {
+		width: 80%;
+		padding: 20px 40px;
+		border-radius: 5px;
+		border: none;
+
+	}
+	h3 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		.textM;
+		color: #a60436;
+	}
+}
+.main-btn {
+	.textM;
+	color: #fff;
+	background-color: #a60436;
+	border: none;
+	border-bottom: 3px solid #4d0219;
+	border-radius: 5px;
+	padding: 20px 40px;
+	:hover {
+		background-color: #d20444;
+	}
+}
+.main-btn:hover {
+		.textB;
+		background-color: #d20444;
+		border-bottom: 2px solid #4d0219;
+		margin-top: 1px;
+	}
+/*  ++++++++++++  Яйца, преимущества  ++++++++++++  */
+.break-line {
+	border: none;
+    border-bottom: 4px solid rgba(0,0,0,0.4);
+}
+.header-eggs {
+	h2 {
+		margin-top: 36px;
+		.textB;
+		color: #323232;
+		span {
+			text-transform: uppercase;
+		}
+		
+	}
+}
+.icons-eggs {
+		margin-top: 36px;
+		img {
+			margin-bottom: 20px;
+			height: 132px;
+		}
+		h4 {
+			.textM;
+			color: #a60436;
+		}
+}
+.line-break {
+	margin-top: 36px;
+	margin-bottom: 30px;
+	border: none;
+    border-bottom: 4px solid #a60436; 
+}
+/*  ++++++++++++  Прайс  ++++++++++++  */
+
+section#price {
+	.textB;
+	padding-bottom: 36px;
+	.header {
+		margin-bottom: 36px;
+	}
+	.card {
+		padding-bottom: 20px;
+		img {
+			width: 90%;
+		}
+		ul {
+			.textM;
+		}
+		border: 7px solid #a60436;
+		border-radius: 5px;
+	}
+	.price-form {
+	.textR;
+	margin-top: 36px;
+	padding-bottom: 40px;
+	background-color: rgba(255, 255, 255, 0.47);
+	input {
+		width: 30%;
+		padding: 20px 50px;
+		border-radius: 5px;
+		border: 1px solid #959595;
+
+	}
+	h3 {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		.textB;
+		color: #323232;
+	}
+	input::placeholder {
+		color: #a60436;
+		.textM;
+	}
+	background-color: rgba(166,4,54,.3);
+	}
+}
+
+/*  ++++++++++++  Модальное окно  ++++++++++++  */
+.modal-body {
+	.price-form {
+	.textR;
+	input {
+		width: 80%;
+	    padding: 20px 50px;
+	    border-radius: 5px;
+	    border: 1px solid #959595;
+	    margin-bottom: 5px;
+	}
+	
+	input::placeholder {
+		color: #a60436;
+		.textM;
+	}
+	}
+}
+
+.modal-header, .modal-footer {
+	padding: 0 auto;
+    text-align: center;
+    border-top: 0px solid #e5e5e5;
+    border-bottom: 0px solid #e5e5e5;
+}
+
+.modal-header h3 {
+		margin-top: 30px;
+		text-align: center;
+		.textB;
+		color: #323232;
+	}
+/*  ++++++++++++  Адаптив  ++++++++++++  */
+/*  ++++++++++++  Адаптив  ++++++++++++  */
+
+
+/*  ++++++++++++  Адаптив  ++++++++++++  */
+
+@media (min-width: 0px) and (max-width: 320px) { 
+	.logo {
+		text-align: center;
+		img {
+			width: 80px;
+			margin-left: 0px;
+
+		}
+	}
+	.social_icons {
+		text-align: center;
+		img {
+			width: 25px;
+			margin: 5% 0 0 0;
+		}
+	}
+	.revizorro {
+		margin-top: 10px;
+		img {
+			width: 100px;
+		}
+	}
+	.phone_number  {
+		h3, p{
+			font-size: 18px;
+    		margin-bottom: 0px;
+		}
+	}
+	.header {
+		h1 {
+			margin-top: 75px;
+			font-size: 30px;
+		}
+	}
+	.main-form {
+		margin-top: 110px;
+		input {
+			margin-top: 10px;
+		}
+		.main-btn {
+			margin-top: 10px;
+		}
+	}
+	section#eggs {
+		.header-eggs {
+			font-size: 25px;
+		}
+		.icons-eggs {
+			img {
+				height: 90px;
+			}
+		}
+	}
+	section#price {
+		.card {
+			margin-bottom: 10px;
+		}
+		.price-form {
+			input {
+				width: 80%;
+			    margin-bottom: 5px;
+			}
+		}
+	}
+}
+@media (min-width: 321px) and (max-width: 480px) { 
+	.logo {
+		text-align: center;
+		img {
+			width: 110px;
+			margin-left: 0px;
+
+		}
+	}
+	.social_icons {
+		text-align: center;
+		img {
+			width: 25px;
+			margin: 5% 0 0 0;
+		}
+	}
+	.revizorro {
+		margin-top: 10px;
+		img {
+			width: 130px;
+		}
+	}
+	.phone_number  {
+		h3, p{
+			font-size: 18px;
+    		margin-bottom: 0px;
+		}
+	}
+	.header {
+		h1 {
+			margin-top: 75px;
+			font-size: 30px;
+		}
+	}
+	.main-form {
+		margin-top: 110px;
+		input {
+			margin-top: 10px;
+		}
+		.main-btn {
+			margin-top: 10px;
+		}
+	}
+	section#eggs {
+		.header-eggs {
+			font-size: 25px;
+		}
+		.icons-eggs {
+			img {
+				height: 90px;
+			}
+		}
+	}
+	section#price {
+		.card {
+			margin-bottom: 10px;
+		}
+		.price-form {
+			input {
+				width: 75%;
+			    margin-bottom: 5px;
+			}
+		}
+	}
+}
+@media (min-width: 481px) and (max-width: 768px) { 
+	.header {
+		h1 {
+			margin-top: 75px;
+			font-size: 30px;
+		}
+	}
+	.main-form {
+		margin-top: 110px;
+		input {
+			margin-top: 10px;
+		}
+		.main-btn {
+			margin-top: 10px;
+		}
+	}
+	section#price {
+		.card {
+			margin-bottom: 10px;
+		}
+		.price-form {
+			input {
+				width: 80%;
+			    margin-bottom: 5px;
+			}
+		}
+	}
+}
+@media (min-width: 769px) and (max-width: 992px) { 
+	.header {
+		h1 {
+			margin-top: 75px;
+			font-size: 30px;
+		}
+	}
+	.main-form {
+		margin-top: 50px;
+		input {
+			margin-top: 10px;
+			margin-bottom: 5px;
+		}
+		.main-btn {
+			margin-top: 10px;
+		}
+	}
+	section#price {
+		.card {
+			margin-bottom: 15px;
+		}
+		.price-form {
+			input {
+				width: 80%;
+			    margin-bottom: 5px;
+			}
+		}
+	}
+}

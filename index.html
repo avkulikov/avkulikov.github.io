@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Примеры работ - Дизайн и Веб</title>
+	<!-- Иконка нашего сайта -->
+	<!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
+	<!-- Сбрасываем стандартные стили браузера -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css" type="text/css"> 
+	<link rel="stylesheet" type="text/css" href="css/lightcase.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+	<script type="text/javascript" src="js/lightcase.init.js"></script>
+	<script type="text/javascript" src="js/lightcase.js"></script>
+	<script type="text/javascript" src="js/jquery.events.touch.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$('a[data-rel=lightcase:myCollection:slideshow]').lightcase({
+				//transition: 'scrollHorizontal',
+				showSequenceInfo: true,
+				swipe: true
+			});		
+		});
+	</script>
+</head>
+<body>
+	<section id="main">
+		<div class="main-header">
+			<img class="avatar" src="img/ava.jpg" alt="Авартар">
+			<h1 class="text-box"> Артем Куликов</h1>
+			<span class="main-line"></span>
+			<p class="text-box"><strong>Верстка на HTML и CSS</strong> <br> Дизайн баннеров в Photoshop</p>
+		</div>
+		<a href="#portfolio"><div class="main-arrow"></div></a>
+	</section>
+	<section id="portfolio">
+		<h2 class="portfolio-header">Примеры работ</h2>
+		<div class="portfolio-works container">
+			<div class="portfolio-box">
+				<img src="img/portfolio/thumb-contest.jpg" alt="Розыгрыш">
+				<a href="img/portfolio/contest.jpg" data-rel="lightcase:myCollection:slideshow" title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
+			</div>
+			<div class="portfolio-box">
+				<img src="img/portfolio/thumb-contest2.jpg" alt="Розыгрыш">
+				<a href="img/portfolio/contest2.jpg" data-rel="lightcase:myCollection:slideshow" title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
+			</div>
+			<div class="portfolio-box">
+				<img src="img/portfolio/thumb-contest3.jpg" alt="Розыгрыш">
+				<a href="img/portfolio/contest3.jpg" data-rel="lightcase:myCollection:slideshow" title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
+			</div>
+		</div>
+		<div class="portfolio-works container">
+			<div class="portfolio-box">
+				<img src="img/portfolio/thumb-kapika.jpg" alt="Розыгрыш">
+				<a href="img/portfolio/kapika.jpg" data-rel="lightcase:myCollection:slideshow" title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
+			</div>
+			<div class="portfolio-box">
+				<img src="img/portfolio/thumb-site.jpg" alt="Сайт Хостел">
+				<a href="sites/hostel/index.html" target="blank" class="portfolio-btn" title="Сайт Хостел - Bootstrap">Смотреть работу</a>
+			</div>
+			<div class="portfolio-box">
+				<img src="img/portfolio/thumb-vacanсy.jpg" alt="Третья работа">
+				<a href="img/portfolio/vacanсy.jpg" data-rel="lightcase:myCollection:slideshow" title="Объявление о вакансии в магазин детской обуви" class="portfolio-btn">Смотреть работу</a>
+			</div>
+		</div>
+
+	</section>
+	<footer>
+		<div class="container">
+			<div class="footer-info">
+				<p class="footer-head">Артем Куликов</p>
+				<p><strong>Верстка на HTML и CSS</strong> <br><br>  Дизайн баннеров в Photoshop</p>
+			</div>
+			<div class="social-links">
+				<p class="footer-head">Обратись</p>
+				<a target="blank" href="//vk.com/a.v_kulikov">
+					<picture>
+						<source type="image/svg+xml" srcset="img/svg/vk.svg">
+						<img src="img/png/vk.png" alt="Вконтакте">
+					</picture>
+				</a>
+				<a target="blank" href="//telegram.me/kulichgg">
+					<picture>
+						<source type="image/svg+xml" srcset="img/svg/telegramm.svg">
+						<img src="img/png/telegramm.png" alt="Telegramm">
+					</picture>
+				</a>
+				<a target="blank" href="skype:79232232455">
+					<picture>
+						<source type="image/svg+xml" srcset="img/svg/skype.svg">
+						<img src="img/png/skype.png" alt="Skype">
+					</picture>
+				</a>
+			</div>
+			<div class="callback">
+				<a target="blank" class="footer-btn footer-head" href="//vk.com/write154195926">Напишите мне</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
