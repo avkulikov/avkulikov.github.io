@@ -1,0 +1,11 @@
+User-agent: *
+Disallow:
+Crawl-delay: 5
+Disallow: /fonts/*
+Disallow: /img/*
+Disallow: /js/*
+Disallow: /css/*
+Disallow: /sites/*
+Disallow: /CNAME
+Disallow: /README.md
+Disallow: /LICENSE
