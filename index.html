@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,22 +10,24 @@
 	<!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> -->
 	<!-- Сбрасываем стандартные стили браузера -->
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css" type="text/css"> 
+	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/lightcase.css">
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script type="text/javascript" src="js/lightcase.init.js"></script>
 	<script type="text/javascript" src="js/lightcase.js"></script>
 	<script type="text/javascript" src="js/jquery.events.touch.js"></script>
 	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$('a[data-rel=lightcase:myCollection:slideshow]').lightcase({
+		jQuery( document ).ready( function ( $ )
+		{
+			$( 'a[data-rel=lightcase:myCollection:slideshow]' ).lightcase( {
 				//transition: 'scrollHorizontal',
 				showSequenceInfo: true,
 				swipe: true
-			});		
-		});
+			} );
+		} );
 	</script>
 </head>
+
 <body>
 	<section id="main">
 		<div class="main-header">
@@ -34,36 +36,55 @@
 			<span class="main-line"></span>
 			<p class="text-box"><strong>Верстка на HTML и CSS</strong> <br> Дизайн баннеров в Photoshop</p>
 		</div>
-		<a href="#portfolio"><div class="main-arrow"></div></a>
+		<a href="#portfolio">
+			<div class="main-arrow"></div>
+		</a>
 	</section>
 	<section id="portfolio">
 		<h2 class="portfolio-header">Примеры работ</h2>
 		<div class="portfolio-works container">
 			<div class="portfolio-box">
 				<img src="img/portfolio/thumb-contest.jpg" alt="Розыгрыш">
-				<a href="img/portfolio/contest.jpg" data-rel="lightcase:myCollection:slideshow" title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
+				<a href="img/portfolio/contest.jpg" data-rel="lightcase:myCollection:slideshow"
+					title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
 			</div>
 			<div class="portfolio-box">
 				<img src="img/portfolio/thumb-contest2.jpg" alt="Розыгрыш">
-				<a href="img/portfolio/contest2.jpg" data-rel="lightcase:myCollection:slideshow" title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
+				<a href="img/portfolio/contest2.jpg" data-rel="lightcase:myCollection:slideshow"
+					title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
 			</div>
 			<div class="portfolio-box">
 				<img src="img/portfolio/thumb-contest3.jpg" alt="Розыгрыш">
-				<a href="img/portfolio/contest3.jpg" data-rel="lightcase:myCollection:slideshow" title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
+				<a href="img/portfolio/contest3.jpg" data-rel="lightcase:myCollection:slideshow"
+					title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
+			</div>
+			<div class="portfolio-box">
+				<img src="img/portfolio/thumb-anketa.jpg" alt="Анкета">
+				<a href="sites/anketa_cssr/index.html" target="blank" class="portfolio-btn"
+					title="Анкета для CSSSR">Смотреть
+					работу</a>
 			</div>
 		</div>
 		<div class="portfolio-works container">
 			<div class="portfolio-box">
 				<img src="img/portfolio/thumb-kapika.jpg" alt="Розыгрыш">
-				<a href="img/portfolio/kapika.jpg" data-rel="lightcase:myCollection:slideshow" title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
+				<a href="img/portfolio/kapika.jpg" data-rel="lightcase:myCollection:slideshow"
+					title="Розыгрыш в магазине детской обуви" class="portfolio-btn">Смотреть работу</a>
 			</div>
 			<div class="portfolio-box">
 				<img src="img/portfolio/thumb-site.jpg" alt="Сайт Хостел">
-				<a href="sites/hostel/index.html" target="blank" class="portfolio-btn" title="Сайт Хостел - Bootstrap">Смотреть работу</a>
+				<a href="sites/hostel/index.html" target="blank" class="portfolio-btn"
+					title="Сайт Хостел - Bootstrap">Смотреть работу</a>
+			</div>
+			<div class="portfolio-box">
+				<img src="img/portfolio/thumb-stp.jpg" alt="Сайт СТП">
+				<a href="sites/stpsite/index.html" target="blank" class="portfolio-btn" title="Сайт длч СТП">Смотреть
+					работу</a>
 			</div>
 			<div class="portfolio-box">
 				<img src="img/portfolio/thumb-vacanсy.jpg" alt="Третья работа">
-				<a href="img/portfolio/vacanсy.jpg" data-rel="lightcase:myCollection:slideshow" title="Объявление о вакансии в магазин детской обуви" class="portfolio-btn">Смотреть работу</a>
+				<a href="img/portfolio/vacanсy.jpg" data-rel="lightcase:myCollection:slideshow"
+					title="Объявление о вакансии в магазин детской обуви" class="portfolio-btn">Смотреть работу</a>
 			</div>
 		</div>
 
@@ -72,7 +93,7 @@
 		<div class="container">
 			<div class="footer-info">
 				<p class="footer-head">Артем Куликов</p>
-				<p><strong>Верстка на HTML и CSS</strong> <br><br>  Дизайн баннеров в Photoshop</p>
+				<p><strong>Верстка на HTML и CSS</strong> <br><br> Дизайн баннеров в Photoshop</p>
 			</div>
 			<div class="social-links">
 				<p class="footer-head">Обратись</p>
@@ -101,4 +122,5 @@
 		</div>
 	</footer>
 </body>
+
 </html>

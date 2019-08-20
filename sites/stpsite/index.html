@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<!--  Meta  -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, minimal-ui">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="imagetoolbar" content="no">
+	<meta name="msthemecompatible" content="no">
+	<meta name="cleartype" content="on">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="address=no">
+
+	<meta name="google" value="notranslate">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<title>Диагностика для клиентов</title>
+
+	<meta name="description" content="Диагностика для клиентов">
+	<meta name="keywords" content="проверить пк, проверить, пк">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111201888-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push( arguments ); }
+		gtag( 'js', new Date() );
+
+		gtag( 'config', 'UA-111201888-1' );
+	</script>
+	<!-- /Global site tag (gtag.js) - Google Analytics -->
+
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		( function ( d, w, c )
+		{
+			( w[ c ] = w[ c ] || [] ).push( function ()
+			{
+				try
+				{
+					w.yaCounter46995831 = new Ya.Metrika( {
+						id: 46995831,
+						clickmap: true,
+						trackLinks: true,
+						accurateTrackBounce: true,
+						webvisor: true,
+						trackHash: true
+					} );
+				} catch ( e ) { }
+			} );
+			var n = d.getElementsByTagName( "script" )[ 0 ], s = d.createElement( "script" ), f = function ()
+			{
+				n.parentNode.insertBefore( s, n );
+			};
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js";
+			if ( w.opera == "[object Opera]" )
+			{
+				d.addEventListener( "DOMContentLoaded", f, false );
+			} else
+			{
+				f();
+			}
+		} )( document, window, "yandex_metrika_callbacks" );
+	</script>
+	<noscript>
+		<div>
+			<img src="https://mc.yandex.ru/watch/46995831" style="position:absolute; left:-9999px;" alt="" />
+		</div>
+	</noscript>
+	<!-- /Yandex.Metrika counter -->
+
+	<!--  Styles  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!--  FontAwesome  -->
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="styles/index.processed.css">
+</head>
+
+<body>
+	<div class="container-fluid trobber d-flex flex-column justify-content-center align-items-center"
+		style="position:absolute;top:0;left:0;background-color:#fff;z-index:99999;height:100vh;">
+		<div class="row">
+			<i class="col fas fa-sync fa-spin" style="font-size:3rem;color:#00993b;"></i>
+		</div>
+		<div class="row">
+			<h3 class="col trobber_text" style="font-family:'Open Sans', sans-serif;color:#00993b;">Загружаем
+				информацию...</h3>
+		</div>
+	</div>
+	<div class="container  d-flex flex-column justify-content-around">
+
+		<!-- Header -->
+		<header class="title row">
+
+			<h1 class="title__text col"> <i class="fas fa-sync fa-spin"></i> <strong>tsp</strong>
+				<p class="title__description">/// Когда больше некому помочь...</p>
+			</h1>
+
+
+		</header>
+		<!-- /Header -->
+
+		<!-- Main Screen -->
+		<section class="main  d-flex flex-column justify-content-around">
+			<div class="row justify-content-around">
+
+				<a class="col-5 sqr sqr--help text-center align-middle" href="#">
+
+					<i class="sqr__icon fas fa-user-md"></i>
+					<h3 class="sqr__description">Скачать help.exe</h3>
+
+				</a>
+
+				<a class="col-5 sqr sqr--soft text-center align-middle" href="#" data-toggle="modal"
+					data-target="#softModalCenter">
+
+					<i class="sqr__icon fas fa-cogs"></i>
+					<h3 class="sqr__description">Скачать программы диагностики</h3>
+
+				</a>
+
+			</div>
+
+			<div class="row justify-content-center">
+
+				<a class="col-5 sqr sqr--router text-center align-middle" target="_blank" href="#">
+
+					<i class="sqr__icon fas fa-wifi"></i>
+					<h3 class="sqr__description">Перейти в настройки роутера</h3>
+
+				</a>
+
+			</div>
+		</section>
+		<!-- /Main Screen -->
+
+		<!-- Footer -->
+		<footer class="row text-center">
+			<h5 class="col">Центр технической поддержки &copy; <span classs="year">2018</span></h5>
+			<h5 class="col info" data-toggle="modal" data-target=".bd-example-modal-lg"><i class="fas fa-info"></i>
+				<span class="dashed">Показать информацию о системе<span></h5>
+			<a target="_blank" href="https://vk.com/im?sel=154195926" class="col">Designed by
+				<strong>ArtKulikov</strong></a>
+		</footer>
+		<!-- /Footer -->
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="softModalCenter" tabindex="-1" role="dialog" aria-labelledby="softModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="softModalLongTitle">Программы для диагностики:</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row d-flex justify-content-around align-items-center">
+							<h4 class="col">Скачать</h4>
+							<div class="col d-flex flex-column justify-content-between align-items-center">
+								<a href="files/test.exe" class="test">test.exe</a>
+								<a data-toggle="collapse" href="#collapseWifi" role="button" aria-expanded="false"
+									aria-controls="collapseWifi" class="analyze">Wi-fi analyzer</a>
+								<div class="collapse" id="collapseMac">
+									<div class="card card-body">
+										<h4>Mac: Wireless Diagnostics</h4>
+										<p>Невероятно, но у macOS данный функционал встроен в саму ОС. Чтобы начать
+											сканирование Wi-Fi каналов, удерживайте клавишу Option и щелкните значок
+											Wi-Fi в строке меню в верхней части экрана. Выберите «Open Wireless
+											Diagnostics».</p>
+										<img class="text-center" src="img/1.jpg" alt="1.jpg">
+										<p>Игнорируйте появившейся мастер. Вместо этого щелкните меню «Окно» и выберите
+											«Утилиты».</p>
+										<p>Выберите вкладку «Сканирование Wi-Fi» и нажмите «Сканировать сейчас». В
+											нижней части окна будет написаны каналы Wi-Fi которые вам следует
+											использовать для сети 2,4 ГГц и 5 ГГц.</p>
+										<img class="text-center" src="img/2.jpg" alt="2.jpg">
+										<p><a href="files/netspot.dmg">Либо скачать NetSpot</a></p>
+									</div>
+								</div>
+								<div class="collapse" id="collapseLin">
+									<div class="card card-body">
+										<h4>Linux: команда iwlist</h4>
+										<p>Что бы выполнить анализ Wi-Fi каналов в операционной системе Linux,
+											необходимо установить приложение Wi-Fi Radar. Но это только в том случаи,
+											если вам нужна графическая оболочка. Для всего остального есть терминал и
+											команда iwlist. iwlist - это встроенный в Linux инструмент с помощью
+											которого можно проверить каналы Wi-Fi.</p>
+										<p>Откройте терминал и запустите следующую команду:</p>
+										<pre><code>sudo iwlist wlan0 scan | grep (Channel</code></pre>
+										<p>Посмотрите, что Вам выдаст команда, чтобы определить канал Wi-Fi, который
+											наименее загружен. На скриншоте ниже канал 1 выглядит наименее загруженным.
+										</p>
+										<img class="text-center" src="img/3.jpg" alt="3.jpg">
+										<p><a href="files/linssid_i386.deb">Либо скачать LinSSID_i386.deb</a></p>
+										<p><a href="files/linssid_amd64.deb">Либо скачать LinSSID_amd64.deb</a></p>
+									</div>
+								</div>
+								<div class="collapse" id="collapseWifi">
+									<div class="card card-body">
+										<h4>Windows: команда netsh wlan</h4>
+										<p>Что бы выполнить анализ Wi-Fi каналов в операционной системе Windows, есть
+											терминал и команда netsh wlan show networks. netsh wlan show networks - это
+											встроенный в Windows инструмент с помощью которого можно проверить каналы
+											Wi-Fi.</p>
+										<p>Откройте терминал и запустите следующую команду:</p>
+										<pre><code>netsh wlan show networks</code></pre>
+										<p>Посмотрите, что Вам выдаст команда, чтобы определить канал Wi-Fi, который
+											наименее загружен.</p>
+										<p><a href="files/inssider.exe">либо Inssider</a></p>
+										<p><a href="files/netspot.exe">либо NetSpot</a></p>
+										<p><a href="files/wifiinfoview.zip">либо WiFi Info View</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade bd-example-modal-lg" id="infoModalCenter" tabindex="-1" role="dialog"
+		aria-labelledby="infoModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog  modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="infoModalLongTitle">Информация о системе:</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col offset-1">
+								<h5>Внешний IP-адрес:</h5>
+								<h5>Локальный IP-адрес:</h5>
+								<h5>Операционная система:</h5>
+								<h5>Браузер:</h5>
+							</div>
+							<div class="col offset-2">
+								<h5 class="ip_remote"></h5>
+								<h5 class="ip_locale"></h5>
+								<h5 class="os"></h5>
+								<h5 class="browser"></h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Modal -->
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/popper.min.js"></script>
+	<script type="text/javascript" src="scripts/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/platform.js"></script>
+	<script type="text/javascript" src="scripts/index.processed.js"></script>
+</body>
+
+</html>
